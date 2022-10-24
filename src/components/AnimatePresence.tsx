@@ -27,7 +27,7 @@ const boxVariants = {
 	leaving: { opacity: 0, y: 50 },
 };
 
-function App() {
+const UseAnimatePresence = () => {
 	const [showing, setShowing] = useState(false);
 	const toggleShowing = () => setShowing((prev) => !prev);
 
@@ -41,6 +41,8 @@ function App() {
 			</AnimatePresence>
 		</Wrapper>
 	);
-}
+};
 
-export default App;
+//AnimatePresence를 사용하면 React 트리에서 컴포넌트가 제거될 때 제거되는 컴포넌트에 애니메이션 효과를 줄 수 있다.
+
+export default UseAnimatePresence;
