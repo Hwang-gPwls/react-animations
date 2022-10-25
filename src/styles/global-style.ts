@@ -9,8 +9,10 @@ const GlobalStyle = createGlobalStyle`
     }
     html{
         font-family: "Noto-Sans", sans-serif;
-        scroll-behavior: smooth;
-        background-color: #a7aabc;
+        scroll-behavior: smooth;  
+        color:black;
+        line-height: 1.2;
+        background-color:#DBD2C9;
     }
     .fixed{
         width: 100%;
